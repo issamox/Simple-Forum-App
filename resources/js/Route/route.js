@@ -3,7 +3,9 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
+import login from '../components/Login/Login'
 const routes = [
+    { path: '/login', component: login }
 
 ];
 

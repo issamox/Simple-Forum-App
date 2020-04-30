@@ -31,5 +31,7 @@ import router from "./Route/route.js";
 const app = new Vue({
     el: '#app',
     router,
+    mode: 'history',
+    hashbang : false,
     vuetify : new Vuetify(),
 });
